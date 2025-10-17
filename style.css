@@ -1,0 +1,32 @@
+  *{
+    padding: 0%;margin: 0%;box-sizing: border-box;
+  }
+    nav{display:flex;width: 100%;
+    height: 5vh;
+      border: 3px solid red;
+      justify-content:space-evenly;
+      background: lightsteelblue;
+      align-items:center;
+      position: fixed;top: 0%;left: 0%;
+      
+    }
+    .tb{
+      width:25%;height:auto;border:2px solid green;text-align: center;
+    
+      
+    }
+    .artical_left{width: 60vw;height:auto;
+      border:2px solid blue;
+      background: lightyellow;
+      position:fixed;top:5vh;left: 0px;z-index: 10;visibility: hidden;
+      padding-left: 5vw;
+      
+    }
+    .artical_left_toggle{
+      visibility: visible;
+    }
+        .under_head{
+      margin-top: 5vh;float: left;
+    
+    position: fixed;top: 0%;left: 0%;
+       }
