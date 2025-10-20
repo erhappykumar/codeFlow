@@ -2,7 +2,7 @@
 import * as p  from "./data.js"
 
 
-let body=document.querySelector("body");
+let body=document.querySelector("body");///
 
 body.innerHTML+=`<nav class="nav"><div class="tb nav_div_equal">☰</div><div class="nav_div_html">html</div><div class="nav_div_css" >css</div>
   <div>javascript</div></nav>`;
